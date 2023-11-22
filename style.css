@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* 배경색 추가 */
+    background-color: #fffffe; /* 배경색 추가 */
 }
 
 .container {
@@ -11,14 +11,31 @@ body {
 }
 
 header {
-    background-color: #3498db; /* 헤더 배경색 추가 */
+    background-color: #f3d2c1; /* 헤더 배경색 추가 */
     color: #fff;
     padding: 20px 0;
+    text-align: left;
+}
+
+nav {
+    margin-top: 20px;
     text-align: center;
 }
 
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 50px;
+    font-weight: bold;
+    transition: color 0.3s; /* 색상 변화에 대한 전환 효과 추가 */
+}
+
+nav a:hover {
+    color: #f582ae; /* 마우스를 가져갈 때의 색상 */
+}
+
 header h1 {
-    margin: 0;
+    margin-left: 10px;
 }
 
 section {
@@ -27,7 +44,7 @@ section {
 }
 
 section h2 {
-    color: #3498db; /* 섹션 헤딩 색상 추가 */
+    color: #001858; /* 섹션 헤딩 색상 추가 */
 }
 
 .project {
@@ -39,12 +56,12 @@ section h2 {
 }
 
 .project img {
-    max-width: 100%;
-    height: auto;
+    max-width: 50%;
+    height: 50%;
 }
 
 footer {
-    background-color: #3498db; /* 푸터 배경색 추가 */
+    background-color: #f3d2c1; /* 푸터 배경색 추가 */
     color: #fff;
     padding: 20px 0;
     text-align: center;
